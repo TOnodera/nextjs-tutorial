@@ -10,7 +10,8 @@
   },
   "workspaceFolder": "/home/node/app",
   "mounts": [
-    "source=/path/to/project,target=/home/node/app,type=bind" // 環境に合わせて変更する
+    "source=/path/to/project,target=/home/node/app,type=bind", // 環境に合わせて変更する
+    "source=/home/your-home/.ssh,target=/home/node/.ssh,type=bind" // docker内でgit pushしたい
   ],
   "customizations": {
     "vscode": {

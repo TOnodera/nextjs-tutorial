@@ -1,4 +1,4 @@
-FROM takeshi1215/dev_base:v1.1
+FROM takeshi1215/dev_base:v1.2
 
 LABEL mantainer="takeshi1215" 
 
